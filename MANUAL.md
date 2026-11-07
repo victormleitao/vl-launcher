@@ -102,10 +102,10 @@ Ao pressionar **OK**:
 ---
 
 ## 🖼️ 7. Papéis de Parede Personalizados
-Você pode usar suas fotos na TV:
-* Crie a pasta **`Wallpapers`** na memória interna da TV ou TV Stick.
-* Coloque imagens em formato `.jpg` ou `.png`.
-* O VL Launcher carrega a imagem de fundo automaticamente ao ligar, aplicando uma suave película escura para garantir total legibilidade dos ícones.
+O VL Launcher já vem de fábrica com um elegante papel de parede escuro minimalista. Na primeira instalação, ele solicita a permissão de armazenamento e cria automaticamente a pasta **`wallpaper`** na memória interna da TV ou TV Stick, inserindo a imagem padrão nela:
+* **Fundo Preto Puro OLED:** Se você preferir uma tela 100% preta sem nenhuma foto, basta apagar o arquivo de dentro da pasta `wallpaper`.
+* **Sua Própria Imagem:** Coloque qualquer foto (`.jpg`, `.png`, `.webp`) dentro da pasta `wallpaper` que o launcher substituirá o fundo na mesma hora.
+* **Restaurar Original:** Basta colocar a foto original de volta na pasta `wallpaper` que ela reassume o plano de fundo.
 
 ---
 
