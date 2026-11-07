@@ -17,6 +17,10 @@ O **VL Launcher** foi criado para transformar sua Smart TV ou TV Stick em uma ce
 * 🎬 **Fundo preto OLED puro:** Visual sofisticado que destaca as cores dos seus aplicativos e reduz consumo de energia em TVs OLED.
 * 🔒 **Estabilidade total:** Seus streamings favoritos sempre protegidos, organizados e com resposta instantânea no controle remoto.
 
+> [!WARNING]
+> **Aviso importante sobre formatação de fábrica:**
+> Caso você formate ou restaure o seu dispositivo (seja Smart TV ou TV Stick) para os padrões originais de fábrica, ele retornará ao sistema original, perdendo o VL Launcher e todas as personalizações. Para reativar a interface, será necessário realizar uma nova instalação mediante novo pagamento do serviço contratado.
+
 ---
 
 ## 🧭 2. Conhecendo a tela inicial
