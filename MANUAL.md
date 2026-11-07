@@ -9,7 +9,7 @@
 ---
 
 ## 🌟 1. Bem-vindo ao VL Launcher
-O **VL Launcher** foi criado para transformar sua Smart TV ou TV Stick em uma central de entretenimento rápida, moderna e livre de distrações, inspirada na experiência da **Apple TV**.
+O **VL Launcher** foi criado para transformar sua Smart TV ou TV Stick em uma central de entretenimento rápida, moderna e livre de distrações, com foco total em uma experiência **Clean e Fluida**.
 
 ### Principais Benefícios:
 * ⚡ **Sem Lentidão:** Consome apenas ~15MB de memória RAM (contra mais de 100MB das telas padrão de fábrica), acabando com engasgos.
