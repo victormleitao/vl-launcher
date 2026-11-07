@@ -8,6 +8,8 @@
   <meta property="og:description" content="Otimização profissional para Smart TVs e TV Sticks: sem anúncios, máxima fluidez e visual minimalista.">
   <meta property="og:url" content="https://victormleitao.github.io/vl-launcher/">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="https://victormleitao.github.io/vl-launcher/logo.png">
+  <link rel="icon" type="image/png" href="logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -55,6 +57,21 @@
     header {
       text-align: center;
       margin-bottom: 2.5rem;
+    }
+
+    .brand-logo {
+      width: 140px;
+      max-width: 80%;
+      height: auto;
+      display: block;
+      margin: 0 auto 1.25rem auto;
+      filter: drop-shadow(0 8px 24px rgba(56, 189, 248, 0.25));
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .brand-logo:hover {
+      transform: scale(1.05);
+      filter: drop-shadow(0 12px 28px rgba(56, 189, 248, 0.4));
     }
 
     .badge {
@@ -261,6 +278,7 @@
 
   <div class="container">
     <header>
+      <img src="logo.png" alt="VL Informática" class="brand-logo">
       <div class="badge">✦ VL Informática • Soluções Digitais</div>
       <h1>Setup Profissional para Smart TV</h1>
       <p class="subtitle">
