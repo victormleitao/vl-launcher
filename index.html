@@ -235,12 +235,16 @@
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
       text-decoration: none;
       cursor: pointer;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, outline 0.2s ease;
     }
 
-    .qr-container:hover {
-      transform: translateY(-4px) scale(1.02);
-      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6);
+    .qr-container:hover,
+    .qr-container:focus,
+    .qr-container:focus-visible {
+      transform: translateY(-4px) scale(1.06);
+      box-shadow: 0 0 25px rgba(56, 189, 248, 0.9), 0 16px 32px rgba(0, 0, 0, 0.6);
+      outline: 4px solid #38bdf8 !important;
+      outline-offset: 4px;
     }
 
     .qr-container img {
@@ -345,10 +349,10 @@
         </div>
       </div>
 
-      <a href="https://www.instagram.com/vlinformaticapb" target="_blank" rel="noopener noreferrer" class="qr-container" title="Acesse o Instagram @vlinformaticapb">
+      <a href="https://www.instagram.com/vlinformaticapb" target="_blank" rel="noopener noreferrer" class="qr-container" tabindex="0" title="Acesse o Instagram @vlinformaticapb">
         <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.instagram.com/vlinformaticapb&color=0-0-0" alt="QR Code Instagram VL Informática">
         <span class="qr-caption">Aponte a Câmera</span>
-        <span style="color: #64748b; font-size: 0.75rem; font-weight: 600; margin-top: 0.25rem;">@vlinformaticapb</span>
+        <span style="color: #0284c7; font-size: 0.8rem; font-weight: 700; margin-top: 0.35rem;">👉 @vlinformaticapb</span>
       </a>
     </div>
 
