@@ -1,6 +1,6 @@
-# 📖 Manual do Usuário • VL Launcher
-### Guia Prático de Uso e Funcionalidades para Smart TV e TV Sticks
-*Desenvolvido e Otimizado por **VL Informática** (Victor Leitão)*
+# 📖 Manual do usuário • VL Launcher
+### Guia prático de uso e funcionalidades para Smart TV e TV Sticks
+*Desenvolvido e otimizado por **VL Informática** (Victor Leitão)*
 
 > [!NOTE]
 > Este manual está disponível diretamente na sua TV através do botão **ℹ️ Sobre** ou online em:
@@ -11,15 +11,15 @@
 ## 🌟 1. Bem-vindo ao VL Launcher
 O **VL Launcher** foi criado para transformar sua Smart TV ou TV Stick em uma central de entretenimento rápida, moderna e livre de distrações, com foco total em uma experiência **Clean e Fluida**.
 
-### Principais Benefícios:
-* ⚡ **Sem Lentidão:** Consome apenas ~15MB de memória RAM (contra mais de 100MB das telas padrão de fábrica), acabando com engasgos.
-* 🚫 **Zero Propagandas:** Nada de banners promocionais invasivos ou vídeos indesejados tocando sozinhos em segundo plano.
-* 🎬 **Fundo Preto OLED Puro:** Visual sofisticado que destaca as cores dos seus aplicativos e reduz consumo de energia em TVs OLED.
-* 🔒 **Estabilidade Total:** Seus streamings favoritos sempre protegidos, organizados e com resposta instantânea no controle remoto.
+### Principais benefícios:
+* ⚡ **Sem lentidão:** Consome apenas ~15MB de memória RAM (contra mais de 100MB das telas padrão de fábrica), acabando com engasgos.
+* 🚫 **Zero propagandas:** Nada de banners promocionais invasivos ou vídeos indesejados tocando sozinhos em segundo plano.
+* 🎬 **Fundo preto OLED puro:** Visual sofisticado que destaca as cores dos seus aplicativos e reduz consumo de energia em TVs OLED.
+* 🔒 **Estabilidade total:** Seus streamings favoritos sempre protegidos, organizados e com resposta instantânea no controle remoto.
 
 ---
 
-## 🧭 2. Conhecendo a Tela Inicial
+## 🧭 2. Conhecendo a tela inicial
 
 A interface é dividida em 3 áreas essenciais:
 
@@ -40,26 +40,26 @@ A interface é dividida em 3 áreas essenciais:
 
 ---
 
-## 🔘 3. Botões da Barra Superior (Canto Superior Direito)
+## 🔘 3. Botões da barra superior (canto superior direito)
 
-Navegue com a **Seta para Cima [▲]** no controle remoto para acessar:
+Navegue com a **seta para cima [▲]** no controle remoto para acessar:
 
-1. **🌐 Rede & Conexão:**
-   - Mostra o status da sua internet (Wi-Fi ou Cabo).
+1. **🌐 Rede e conexão:**
+   - Mostra o status da sua internet (Wi-Fi ou cabo).
    - Ao clicar, abre diretamente a tela de conexões de rede da TV.
 
 2. **⚙️ Configurações:**
    - Abre instantaneamente o menu de configurações do sistema (imagem, som, Bluetooth, contas).
 
 3. **ℹ️ Sobre o VL Launcher (VL Informática):**
-   - Abre o popup informativo com as vantagens do setup, contatos de suporte e o botão interativo para o **Manual do Usuário**.
+   - Abre o popup informativo com as vantagens do setup, contatos de suporte e o botão interativo para o **Manual do usuário**.
    - As setas do controle navegam diretamente no conteúdo da página.
    - Pressionar **Voltar [←]** retorna para a página anterior do popup ou fecha a janela.
    - Pressionar **Home** fecha o popup imediatamente e retorna aos Favoritos.
 
 ---
 
-## 📱 4. Botão "Manual do VL Launcher" no Popup Sobre
+## 📱 4. Botão "Manual do VL Launcher" no popup Sobre
 
 Abaixo do cartão com o QR Code do Instagram, há o botão dedicado:
 
@@ -76,42 +76,42 @@ Ao pressionar **OK**:
 
 ---
 
-## ⚡ 5. Botões de Ação Rápida (Acima da Lista de Apps)
+## ⚡ 5. Botões de ação rápida (acima da lista de apps)
 
-1. **⭐ Aba Favoritos:**
+1. **⭐ Aba favoritos:**
    - Sua vitrine principal. Apenas os aplicativos que você mais usa no dia a dia.
-2. **⊞ Aba Todos os Apps:**
+2. **⊞ Aba todos os apps:**
    - Lista completa de todos os aplicativos instalados no aparelho em ordem alfabética.
-3. **⛔ Parar Mídias em Segundo Plano:**
+3. **⛔ Parar mídias em segundo plano:**
    - Encerra instantaneamente áudios ou vídeos que continuaram tocando sozinhos em segundo plano.
-4. **⇅ Organizar Favoritos:**
+4. **⇅ Organizar favoritos:**
    - Ativa o modo de ordenação dos seus apps favoritos com as setas do controle.
 
 ---
 
-## 🎮 6. Atalhos do Controle Remoto
+## 🎮 6. Atalhos do controle remoto
 
-| Tecla / Ação | O que faz no VL Launcher |
+| Tecla / ação | O que faz no VL Launcher |
 | :--- | :--- |
-| **Setas Direcionais (▲ ▼ ◄ ►)** | Move o foco suavemente entre cards e botões |
-| **OK / Centro** | Abre o aplicativo selecionado ou ativa a opção |
-| **Segurar OK (Clique Longo)** | Abre o menu rápido: Adicionar/Remover Favorito, Desinstalar ou Informações |
+| **Setas direcionais (▲ ▼ ◄ ►)** | Move o foco suavemente entre cards e botões |
+| **OK / centro** | Abre o aplicativo selecionado ou ativa a opção |
+| **Segurar OK (clique longo)** | Abre o menu rápido: Adicionar/remover favorito, Desinstalar ou Informações |
 | **Voltar [←]** | Volta na navegação interna ou cancela a seleção atual |
 | **HOME** | Retorna imediatamente para a tela de Favoritos de qualquer lugar |
 
 ---
 
-## 🖼️ 7. Papéis de Parede Personalizados
+## 🖼️ 7. Papéis de parede personalizados
 O VL Launcher já vem de fábrica com um elegante papel de parede escuro minimalista. Na primeira instalação, ele solicita a permissão de armazenamento e cria automaticamente a pasta **`wallpaper`** na memória interna da TV ou TV Stick, inserindo a imagem padrão nela:
-* **Fundo Preto Puro OLED:** Se você preferir uma tela 100% preta sem nenhuma foto, basta apagar o arquivo de dentro da pasta `wallpaper`.
-* **Sua Própria Imagem:** Coloque qualquer foto (`.jpg`, `.png`, `.webp`) dentro da pasta `wallpaper` que o launcher substituirá o fundo na mesma hora.
-* **Slideshow Inteligente (2 ou mais fotos):** Colocando 2 ou mais imagens na pasta `wallpaper`, o launcher ativa o rodízio automático com transição suave tipo *fade*! Você pode ajustar o tempo no botão **⇅ Organizar** (30 min, 1h, 6h, 12h ou 24h).
-* **Restaurar Original:** Basta colocar a foto original de volta na pasta `wallpaper` que ela reassume o plano de fundo.
+* **Fundo preto puro OLED:** Se você preferir uma tela 100% preta sem nenhuma foto, basta apagar o arquivo de dentro da pasta `wallpaper`.
+* **Sua própria imagem:** Coloque qualquer foto (`.jpg`, `.png`, `.webp`) dentro da pasta `wallpaper` que o launcher substituirá o fundo na mesma hora.
+* **Slideshow inteligente (2 ou mais fotos):** Colocando 2 ou mais imagens na pasta `wallpaper`, o launcher ativa o rodízio automático com transição suave tipo *fade*! Você pode ajustar o tempo no botão **⇅ Organizar** (30 min, 1h, 6h, 12h ou 24h).
+* **Restaurar original:** Basta colocar a foto original de volta na pasta `wallpaper` que ela reassume o plano de fundo.
 
 ---
 
-## 👨‍💻 8. Suporte Especializado • VL Informática
+## 👨‍💻 8. Suporte especializado • VL Informática
 * **Especialista:** Victor Leitão
-* **Instagram Oficial:** [@vlinformaticapb](https://www.instagram.com/vlinformaticapb)
-* **Showcase Online:** [victormleitao.github.io/vl-launcher](https://victormleitao.github.io/vl-launcher/)
-* **Manual Online:** [victormleitao.github.io/vl-launcher/manual.html](https://victormleitao.github.io/vl-launcher/manual.html)
+* **Instagram oficial:** [@vlinformaticapb](https://www.instagram.com/vlinformaticapb)
+* **Showcase online:** [victormleitao.github.io/vl-launcher](https://victormleitao.github.io/vl-launcher/)
+* **Manual online:** [victormleitao.github.io/vl-launcher/manual.html](https://victormleitao.github.io/vl-launcher/manual.html)
