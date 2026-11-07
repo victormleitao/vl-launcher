@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clean TV Setup • Otimização de Smart TVs e TV Sticks | Victor Leitão</title>
+  <title>VL Launcher • Otimização de Smart TVs e TV Sticks | Victor Leitão</title>
+  <meta property="og:title" content="VL Launcher • Setup Profissional para Smart TV | Victor Leitão">
+  <meta property="og:description" content="Otimização profissional para Smart TVs e TV Sticks: sem anúncios, máxima fluidez e visual minimalista.">
+  <meta property="og:url" content="https://victormleitao.github.io/vl-launcher/">
+  <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -212,6 +216,14 @@
       flex-direction: column;
       align-items: center;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .qr-container:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6);
     }
 
     .qr-container img {
@@ -313,14 +325,14 @@
         </div>
       </div>
 
-      <div class="qr-container">
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/victormleitao&color=0-0-0" alt="QR Code GitHub Victor Leitão">
+      <a href="https://instagram.com/victormleitao" target="_blank" rel="noopener noreferrer" class="qr-container" title="Acesse o Instagram @victormleitao">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://instagram.com/victormleitao&color=0-0-0" alt="QR Code Instagram Victor Leitão">
         <span class="qr-caption">Aponte a Câmera</span>
-      </div>
+      </a>
     </div>
 
     <footer>
-      <p>Clean Apple TV Launcher • Desenvolvido e Otimizado por Victor Leitão (VL Apps)</p>
+      <p>VL Launcher • Desenvolvido e Otimizado por Victor Leitão (VL Apps)</p>
       <p style="margin-top: 0.3rem;">Todos os direitos reservados © 2026</p>
     </footer>
   </div>
