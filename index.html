@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clean TV Setup • Otimização de Smart TVs e TV Sticks | Victor Leitão</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090a0f;
+      --card-bg: rgba(26, 29, 38, 0.75);
+      --card-border: rgba(255, 255, 255, 0.12);
+      --accent: #38bdf8;
+      --accent-glow: rgba(56, 189, 248, 0.25);
+      --accent-purple: #a855f7;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(56, 189, 248, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(168, 85, 247, 0.10) 0%, transparent 40%);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 3rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: var(--accent);
+      padding: 0.4rem 1.1rem;
+      border-radius: 9999px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 1.2rem;
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 0.8rem;
+      background: linear-gradient(135deg, #ffffff 40%, #93c5fd 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 1.25rem;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+
+    /* Grid de Recursos */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .feature-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 1.6rem;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(56, 189, 248, 0.4);
+    }
+
+    .feature-icon {
+      font-size: 2.2rem;
+      margin-bottom: 0.8rem;
+      display: inline-block;
+    }
+
+    .feature-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 0.4rem;
+    }
+
+    .feature-desc {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Caixa de Destaque / Dispositivos */
+    .devices-box {
+      background: linear-gradient(180deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.85) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 22px;
+      padding: 1.8rem 2rem;
+      margin-bottom: 2.5rem;
+      text-align: center;
+    }
+
+    .devices-box h3 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: #e2e8f0;
+    }
+
+    .tags-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.6rem;
+    }
+
+    .tag {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 0.5rem 1rem;
+      border-radius: 12px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #cbd5e1;
+    }
+
+    /* Seção de Contato e QR Code */
+    .cta-card {
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.15) 0%, rgba(168, 85, 247, 0.15) 100%);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      border-radius: 24px;
+      padding: 2.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .cta-info {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .cta-info h2 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin-bottom: 0.6rem;
+      color: #ffffff;
+    }
+
+    .cta-info p {
+      color: #cbd5e1;
+      font-size: 1.05rem;
+      line-height: 1.5;
+      margin-bottom: 1.4rem;
+    }
+
+    .developer-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.95rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .qr-container {
+      background: #ffffff;
+      padding: 1rem;
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    }
+
+    .qr-container img {
+      width: 140px;
+      height: 140px;
+      display: block;
+    }
+
+    .qr-caption {
+      color: #0f172a;
+      font-size: 0.75rem;
+      font-weight: 700;
+      margin-top: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      color: #64748b;
+      font-size: 0.85rem;
+    }
+
+    /* Responsividade */
+    @media (max-width: 640px) {
+      h1 { font-size: 2rem; }
+      .cta-card { flex-direction: column; text-align: center; }
+      .qr-container { margin: 0 auto; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="badge">✦ VL Apps • Soluções Digitais</div>
+      <h1>Setup Profissional para Smart TV</h1>
+      <p class="subtitle">
+        Transformação completa do seu sistema: sem anúncios, resposta instantânea no controle remoto e visual minimalista estilo Apple TV.
+      </p>
+    </header>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <span class="feature-icon">⚡</span>
+        <h3 class="feature-title">Máxima Fluidez</h3>
+        <p class="feature-desc">
+          Desativação de dezenas de serviços pesados e telemetria de fábrica. Libera até 200MB de RAM, acabando com engasgos e lentidão.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <span class="feature-icon">🚫</span>
+        <h3 class="feature-title">Zero Propagandas</h3>
+        <p class="feature-desc">
+          Bloqueio nativo de anúncios, banners e rastreadores direto no sistema via DNS privado. Sem necessidade de VPN.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <span class="feature-icon">🍎</span>
+        <h3 class="feature-title">Visual Apple TV</h3>
+        <p class="feature-desc">
+          Interface limpa com fundo preto OLED puro, cards proporcionais, abas de favoritos e parada inteligente de reprodução em segundo plano.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <span class="feature-icon">🛡️</span>
+        <h3 class="feature-title">Segurança & Backup</h3>
+        <p class="feature-desc">
+          Procedimento 100% não destrutivo. Seus streamings continuam intactos e com script de restauração de fábrica em 1 clique.
+        </p>
+      </div>
+    </div>
+
+    <div class="devices-box">
+      <h3>Compatível com Todos os Seus Aparelhos</h3>
+      <div class="tags-container">
+        <span class="tag">📺 Smart TVs TCL</span>
+        <span class="tag">🪄 Xiaomi Mi TV Stick</span>
+        <span class="tag">📦 Mi Box S 4K</span>
+        <span class="tag">🔥 Amazon Fire TV Stick</span>
+        <span class="tag">🌐 Google TV & Chromecast</span>
+        <span class="tag">🤖 Android TV 9 / 10 / 11 / 12+</span>
+      </div>
+    </div>
+
+    <div class="cta-card">
+      <div class="cta-info">
+        <h2>Quer esse setup na sua TV?</h2>
+        <p>
+          Otimização profissional realizada remotamente ou presencialmente. Deixe sua TV ou Stick voando baixo!
+        </p>
+        <div class="developer-tag">
+          <span>👨‍💻 Desenvolvido por Victor Leitão</span>
+        </div>
+      </div>
+
+      <div class="qr-container">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/victormleitao&color=0-0-0" alt="QR Code GitHub Victor Leitão">
+        <span class="qr-caption">Aponte a Câmera</span>
+      </div>
+    </div>
+
+    <footer>
+      <p>Clean Apple TV Launcher • Desenvolvido e Otimizado por Victor Leitão (VL Apps)</p>
+      <p style="margin-top: 0.3rem;">Todos os direitos reservados © 2026</p>
+    </footer>
+  </div>
+
+</body>
+</html>
