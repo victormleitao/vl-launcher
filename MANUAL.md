@@ -8,10 +8,10 @@
 O **VL Launcher** foi criado para transformar sua Smart TV ou TV Stick em uma central de entretenimento rápida, moderna e livre de distrações, inspirada na experiência da **Apple TV**.
 
 ### Principais Benefícios:
-* ⚡ **Sem Lentidão:** Sistema ultraleve que economiza memória e responde na hora.
-* 🚫 **Zero Propagandas:** Nada de banners promocionais ou vídeos que começam a tocar sozinhos.
-* 🎬 **Fundo Preto OLED:** Visual sofisticado que destaca as cores dos seus aplicativos.
-* 🔒 **Estabilidade:** Seus streamings favoritos sempre protegidos e organizados.
+* ⚡ **Sem Lentidão:** Sistema ultraleve (~15MB de RAM) que responde de forma instantânea aos comandos do controle.
+* 🚫 **Zero Propagandas:** Nada de banners promocionais, anúncios invasivos ou vídeos que começam a tocar sozinhos.
+* 🎬 **Fundo Preto OLED:** Visual sofisticado que destaca as cores dos seus aplicativos favoritos.
+* 🔒 **Estabilidade Total:** Seus streamings favoritos sempre protegidos e organizados.
 
 ---
 
@@ -42,14 +42,16 @@ Ao apertar a **Seta para Cima** no controle remoto, você acessa os três botõe
 
 1. **🌐 Rede & Conexão:**
    - Mostra o status da sua internet (Wi-Fi ou Cabo).
-   - Ao clicar, abre diretamente a tela de conexões da TV para trocar de rede ou reconectar.
+   - Ao clicar, abre diretamente a tela de conexões da TV para verificar o sinal ou trocar de rede.
 
 2. **⚙️ Configurações:**
    - Abre instantaneamente o menu de configurações do sistema da TV (imagem, som, contas e Bluetooth).
 
 3. **ℹ️ Sobre o VL Launcher (VL Informática):**
-   - Abre uma janela moderna com as informações do sistema, novidades e os canais de contato/suporte do técnico **Victor Leitão (VL Informática)**.
-   - Pressione a tecla **Voltar** no controle para fechar essa janela a qualquer momento.
+   - Abre uma central interativa com informações do sistema, novidades e os canais de suporte da **VL Informática**.
+   - **QR Code Interativo:** Você pode navegar com as setas até o QR Code, apertar **OK** e abrir o Instagram oficial (**@vlinformaticapb**) diretamente na tela da sua TV!
+   - **Botão Manual:** Permite abrir este manual a qualquer momento sem sair da TV.
+   - Pressione **Voltar** no controle para retornar ou **HOME** para fechar tudo.
 
 ---
 
@@ -63,7 +65,7 @@ Logo abaixo do relógio, você encontra as opções de navegação:
   - Mostra a lista completa de todos os aplicativos instalados na sua TV, incluindo apps sideload/celular e lojas.
 * **⛔ Parar Mídia em Segundo Plano (Botão Inteligente):**
   - **Atenção:** Esse botão **só aparece quando tem algum som ou vídeo tocando escondido** (por exemplo, se você estava assistindo YouTube ou IPTV, apertou a tecla Home e o som continuou saindo).
-  - Ao clicar no botão **⛔**, o sistema para o áudio e encerra o app em segundo plano na hora.
+  - O ícone **⛔** indica bloqueio/parada imediata. Ao clicar nele, o sistema silencia e encerra o app em segundo plano na hora.
 * **⇅ Organizar:**
   - Permite escolher entre **Ordem Alfabética (A-Z)** ou **Ordem Personalizada**;
   - Alternar entre **4 colunas grandes** ou **5 colunas compactas**;
@@ -71,7 +73,7 @@ Logo abaixo do relógio, você encontra as opções de navegação:
 
 ---
 
-## 🎯 5. Menu Secreto: Segure o Botão OK sobre qualquer App!
+## 🎯 5. Menu de Opções do App (Segure o Botão OK)
 
 Quer personalizar seus aplicativos? É muito simples:
 1. Use as setas do controle para parar em cima do aplicativo desejado.
@@ -83,18 +85,18 @@ Quer personalizar seus aplicativos? É muito simples:
 | **⭐ Adicionar / Remover Favorito** | Coloca ou tira o aplicativo da sua aba principal de Favoritos. |
 | **⇄ Mover de Posição** | Entra no modo de organização livre: use as setas do controle para mover o app para a esquerda, direita, cima ou baixo. Pressione **OK** para salvar na nova posição! |
 | **⚙️ Informações do Aplicativo** | Abre os detalhes do Android (limpar dados, permissões, versão). |
-| **🗑️ Desinstalar Aplicativo** | Remove o aplicativo da TV com facilidade. |
-| **👁️ Ocultar da Grade** | Esconde o aplicativo da tela para que ninguém veja. Você pode recuperá-lo quando quiser no botão **⇅ Organizar**. |
+| **🗑️ Desinstalar Aplicativo** | Remove o aplicativo da TV com rapidez e segurança. |
+| **👁️ Ocultar da Grade** | Esconde o aplicativo da tela. Você pode recuperá-lo quando quiser no botão **⇅ Organizar**. |
 
 ---
 
 ## 🎮 6. Guia Rápido do Controle Remoto
 
-* **Setas (Cima / Baixo / Esquerda / Direita):** Navegam pelos botões e pelos cards dos aplicativos com animação destacada.
-* **Botão OK (Centro):** Abre o aplicativo selecionado.
+* **Setas (Cima / Baixo / Esquerda / Direita):** Navegam pelos botões, abas e pelos cards dos aplicativos com animação destacada.
+* **Botão OK (Centro):** Abre o aplicativo ou botão selecionado.
 * **Segurar OK (1 segundo):** Abre o menu de opções do aplicativo.
-* **Botão Voltar (← / Back):** Fecha qualquer janela aberta e retorna para a aba de Favoritos. **Não se preocupe: apertar voltar nunca fechará o VL Launcher por engano.**
-* **Botão Home (🏠):** Retorna instantaneamente para a tela principal do seu VL Launcher de qualquer aplicativo.
+* **Botão Voltar (← / Back):** Fecha qualquer janela aberta e retorna para a aba de Favoritos. *Não se preocupe: apertar voltar nunca fechará o VL Launcher por engano.*
+* **Botão Home (🏠):** Retorna instantaneamente para a tela inicial do seu VL Launcher de qualquer lugar (inclusive de dentro do Sobre ou de qualquer aplicativo).
 
 ---
 
@@ -102,7 +104,7 @@ Quer personalizar seus aplicativos? É muito simples:
 
 Se você quiser colocar uma foto de família, imagem de paisagem ou logo no fundo da sua TV:
 1. Copie suas imagens (`.jpg` ou `.png`) para a pasta **`Wallpapers`** na memória da TV.
-2. O **VL Launcher** detectará a imagem automaticamente e aplicará no fundo com uma suave película escura para garantir que todos os ícones continuem fáceis de enxergar.
+2. O **VL Launcher** detectará a foto automaticamente ao ligar, aplicando uma suave película escura por cima para garantir que todos os ícones continuem 100% legíveis.
 
 ---
 
@@ -117,6 +119,9 @@ Se você quiser colocar uma foto de família, imagem de paisagem ou logo no fund
 **3. Ocultei um aplicativo por engano, como recupero?**
 > *Vá até a aba **⇅ Organizar**, clique em **"👁️ Gerenciar Apps Ocultos"** e selecione o aplicativo para reexibi-lo na grade.*
 
+**4. Como acessar o Instagram da VL Informática pela TV?**
+> *Clique no ícone **ℹ️ (Sobre)** no canto superior direito, navegue com as setas até o QR Code e aperte **OK** no controle remoto!*
+
 ---
 
 ## 📞 9. Suporte e Atendimento Técnico
@@ -124,5 +129,6 @@ Precisa de ajuda, novas instalações ou suporte especializado?
 
 * **Especialista Técnico:** Victor Leitão
 * **Empresa:** VL Informática / VL Apps
+* **Instagram Oficial:** [@vlinformaticapb](https://www.instagram.com/vlinformaticapb)
 * **Página Oficial:** [victormleitao.github.io/vl-launcher](https://victormleitao.github.io/vl-launcher/)
-* **Acesso Direto na TV:** Clique no ícone **ℹ️ (Sobre)** no canto superior direito da sua tela!
+* **Manual Online:** [victormleitao.github.io/vl-launcher/manual.html](https://victormleitao.github.io/vl-launcher/manual.html)

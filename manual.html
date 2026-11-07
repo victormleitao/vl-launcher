@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual do Usuário • VL Launcher | VL Informática</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090a0f;
+      --card-bg: rgba(26, 29, 38, 0.75);
+      --card-border: rgba(255, 255, 255, 0.12);
+      --accent: #38bdf8;
+      --accent-glow: rgba(56, 189, 248, 0.25);
+      --accent-purple: #a855f7;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(56, 189, 248, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(168, 85, 247, 0.10) 0%, transparent 40%);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 2.5rem 1.8rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Barra Superior com Botão Voltar */
+    .top-nav {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 2rem;
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: #ffffff;
+      padding: 0.7rem 1.4rem;
+      border-radius: 14px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .back-btn:hover,
+    .back-btn:focus,
+    .back-btn:focus-visible {
+      background: rgba(56, 189, 248, 0.2);
+      border-color: var(--accent);
+      outline: 3px solid var(--accent) !important;
+      outline-offset: 3px;
+      transform: translateX(-4px);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .brand-logo {
+      width: 180px;
+      max-width: 80%;
+      height: auto;
+      margin-bottom: 1rem;
+      filter: drop-shadow(0 4px 12px rgba(56, 189, 248, 0.25));
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 0.6rem;
+      background: linear-gradient(135deg, #ffffff 40%, #93c5fd 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 640px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+
+    /* Seções e Cards do Manual */
+    .manual-section {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 22px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      margin-bottom: 1.2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 0.8rem;
+    }
+
+    .section-icon {
+      font-size: 1.8rem;
+    }
+
+    .section-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .section-content {
+      color: #cbd5e1;
+      font-size: 1.02rem;
+      line-height: 1.65;
+    }
+
+    .section-content p {
+      margin-bottom: 1rem;
+    }
+
+    /* Lista de Itens com Ícones */
+    .feature-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+      margin: 1.2rem 0;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.9rem;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 1rem 1.2rem;
+      border-radius: 14px;
+    }
+
+    .item-icon {
+      font-size: 1.4rem;
+      line-height: 1;
+      flex-shrink: 0;
+      margin-top: 0.1rem;
+    }
+
+    .item-text strong {
+      color: #ffffff;
+      font-size: 1.05rem;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .item-text span {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.45;
+    }
+
+    /* Tabela de Ações do Menu */
+    .table-container {
+      overflow-x: auto;
+      margin: 1.2rem 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th {
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent);
+      padding: 0.85rem 1.1rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      border-bottom: 1px solid rgba(56, 189, 248, 0.3);
+    }
+
+    td {
+      padding: 0.9rem 1.1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.95rem;
+      color: #cbd5e1;
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    /* Destaque Importante */
+    .alert-box {
+      background: rgba(239, 68, 68, 0.12);
+      border: 1px solid rgba(239, 68, 68, 0.35);
+      border-radius: 16px;
+      padding: 1.2rem;
+      margin: 1.2rem 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.9rem;
+    }
+
+    .alert-icon {
+      font-size: 1.6rem;
+      flex-shrink: 0;
+    }
+
+    .alert-text strong {
+      color: #f87171;
+      font-size: 1.05rem;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+
+    .alert-text p {
+      color: #fca5a5;
+      font-size: 0.95rem;
+      line-height: 1.45;
+      margin: 0;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      color: #64748b;
+      font-size: 0.85rem;
+    }
+
+    /* Responsividade */
+    @media (max-width: 640px) {
+      h1 { font-size: 1.9rem; }
+      .manual-section { padding: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="top-nav">
+      <a href="index.html" class="back-btn" tabindex="0">
+        <span>←</span> Voltar para a Página Principal
+      </a>
+    </div>
+
+    <header>
+      <img src="logo.png" alt="VL Informática" class="brand-logo">
+      <h1>Manual do Usuário • VL Launcher</h1>
+      <p class="subtitle">
+        Guia prático de utilização, atalhos do controle remoto e recursos inteligentes para sua Smart TV ou TV Stick.
+      </p>
+    </header>
+
+    <!-- 1. Visão Geral -->
+    <section class="manual-section">
+      <div class="section-header">
+        <span class="section-icon">🌟</span>
+        <h2 class="section-title">1. O que é o VL Launcher?</h2>
+      </div>
+      <div class="section-content">
+        <p>
+          O <strong>VL Launcher</strong> é uma interface personalizada de alto desempenho desenvolvida para substituir a tela pesada e cheia de propagandas de fábrica da sua Smart TV ou TV Stick. Inspirado no visual elegante da Apple TV, ele entrega:
+        </p>
+        <ul class="feature-list">
+          <li class="feature-item">
+            <span class="item-icon">⚡</span>
+            <div class="item-text">
+              <strong>Máxima Velocidade & Fluidez</strong>
+              <span>Consome apenas ~15MB de memória RAM (contra mais de 100MB das telas padrão), acabando com travamentos.</span>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="item-icon">🚫</span>
+            <div class="item-text">
+              <strong>Zero Propagandas na Tela</strong>
+              <span>Sem trailers automáticos tocando sozinhos e sem anúncios ocupando espaço na sua TV.</span>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="item-icon">🖤</span>
+            <div class="item-text">
+              <strong>Fundo Preto OLED Puro</strong>
+              <span>Design elegante e moderno que melhora o contraste e dá destaque total aos seus aplicativos.</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 2. Barra Superior -->
+    <section class="manual-section">
+      <div class="section-header">
+        <span class="section-icon">🔘</span>
+        <h2 class="section-title">2. Botões da Barra Superior (Canto Direito)</h2>
+      </div>
+      <div class="section-content">
+        <p>
+          Ao apertar a <strong>Seta para Cima</strong> no controle remoto, você acessa os três botões redondos no canto superior da tela:
+        </p>
+        <ul class="feature-list">
+          <li class="feature-item">
+            <span class="item-icon">🌐</span>
+            <div class="item-text">
+              <strong>Rede & Internet</strong>
+              <span>Abre diretamente as configurações de Wi-Fi e cabo da TV para verificar sinal ou trocar de rede.</span>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="item-icon">⚙️</span>
+            <div class="item-text">
+              <strong>Configurações do Sistema</strong>
+              <span>Acesso rápido ao menu de fábrica da TV (Bluetooth, imagem, som e contas).</span>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="item-icon">ℹ️</span>
+            <div class="item-text">
+              <strong>Sobre o VL Launcher (VL Informática)</strong>
+              <span>Abre a central de informações e suporte da <strong>VL Informática</strong>. Você pode navegar pela página, ler este manual e clicar no QR Code para abrir o Instagram oficial.</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. Abas de Navegação -->
+    <section class="manual-section">
+      <div class="section-header">
+        <span class="section-icon">🗂️</span>
+        <h2 class="section-title">3. Abas de Navegação (Barra Central)</h2>
+      </div>
+      <div class="section-content">
+        <ul class="feature-list">
+          <li class="feature-item">
+            <span class="item-icon">⭐</span>
+            <div class="item-text">
+              <strong>Aba de Favoritos</strong>
+              <span>Sua tela de início do dia a dia, com seus aplicativos mais importantes (Netflix, YouTube, TV ao Vivo, etc.).</span>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="item-icon">⊞</span>
+            <div class="item-text">
+              <strong>Todos os Aplicativos</strong>
+              <span>Gaveta completa com todos os apps instalados na sua TV, incluindo apps sideload e ferramentas.</span>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="item-icon">⛔</span>
+            <div class="item-text">
+              <strong>Botão Parar Mídia em Segundo Plano (Inteligente)</strong>
+              <span>Aparece automaticamente <strong>apenas quando há algum aplicativo tocando som escondido</strong>. Ao clicar nele, ele encerra a reprodução e silencia o app na hora.</span>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="item-icon">⇅</span>
+            <div class="item-text">
+              <strong>Organizar</strong>
+              <span>Permite alternar entre Ordem Alfabética (A-Z) ou Ordem Personalizada, mudar a grade para 4 ou 5 colunas e gerenciar aplicativos ocultos.</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4. Menu Secreto -->
+    <section class="manual-section">
+      <div class="section-header">
+        <span class="section-icon">🎯</span>
+        <h2 class="section-title">4. Menu de Opções do App (Segure o botão OK)</h2>
+      </div>
+      <div class="section-content">
+        <p>
+          Para personalizar qualquer aplicativo, pare o cursor sobre ele e <strong>segure o botão OK por 1 segundo</strong> (ou aperte a tecla Menu do controle):
+        </p>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Opção</th>
+                <th>O que ela faz</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>⭐ Favoritar / Desfavoritar</strong></td>
+                <td>Adiciona ou retira o aplicativo da sua aba principal de Favoritos.</td>
+              </tr>
+              <tr>
+                <td><strong>⇄ Mover de posição</strong></td>
+                <td>Entra no modo de organização: use as setas do controle para mover o app para qualquer lugar da grade e aperte <strong>OK</strong> para fixar.</td>
+              </tr>
+              <tr>
+                <td><strong>⚙️ Informações do aplicativo</strong></td>
+                <td>Abre a tela de detalhes do sistema (limpar dados, permissões, etc.).</td>
+              </tr>
+              <tr>
+                <td><strong>🗑️ Desinstalar aplicativo</strong></td>
+                <td>Remove o aplicativo da TV com rapidez e segurança.</td>
+              </tr>
+              <tr>
+                <td><strong>👁️ Ocultar da grade</strong></td>
+                <td>Esconde o aplicativo da tela. Você pode reexibi-lo a qualquer momento no botão <strong>⇅ Organizar</strong>.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Atalhos do Controle -->
+    <section class="manual-section">
+      <div class="section-header">
+        <span class="section-icon">🎮</span>
+        <h2 class="section-title">5. Guia do Controle Remoto</h2>
+      </div>
+      <div class="section-content">
+        <ul class="feature-list">
+          <li class="feature-item">
+            <span class="item-icon">🕹️</span>
+            <div class="item-text">
+              <strong>Setas (Cima / Baixo / Esquerda / Direita)</strong>
+              <span>Navegam pelos botões, abas e cards de aplicativos com efeito de ampliação em tempo real.</span>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="item-icon">🆗</span>
+            <div class="item-text">
+              <strong>Botão OK (Centro)</strong>
+              <span>Toque rápido abre o app ou botão selecionado. Segurar por 1 segundo abre o menu de opções do app.</span>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="item-icon">↩️</span>
+            <div class="item-text">
+              <strong>Botão Voltar (← / Back)</strong>
+              <span>Fecha qualquer popup ou menu aberto e retorna para os Favoritos. <em>Importante: apertar Voltar nunca fechará o VL Launcher por engano.</em></span>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="item-icon">🏠</span>
+            <div class="item-text">
+              <strong>Botão HOME</strong>
+              <span>Não importa onde você esteja: apertar o botão Home fecha qualquer janela e retorna direto para o início nos seus Favoritos!</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 6. Papéis de Parede -->
+    <section class="manual-section">
+      <div class="section-header">
+        <span class="section-icon">🖼️</span>
+        <h2 class="section-title">6. Papéis de Parede Personalizados</h2>
+      </div>
+      <div class="section-content">
+        <p>
+          Você pode colocar suas próprias fotos ou papéis de parede favoritos na tela da sua TV:
+        </p>
+        <p>
+          Basta colocar qualquer imagem em formato <code>.jpg</code> ou <code>.png</code> dentro da pasta <strong><code>Wallpapers</code></strong> na memória interna da TV ou TV Stick. O VL Launcher detectará a foto automaticamente ao ligar, aplicando uma suave película escura por cima para garantir que todos os ícones fiquem 100% legíveis!
+        </p>
+      </div>
+    </section>
+
+    <!-- 7. Suporte e Contato -->
+    <section class="manual-section" style="border-color: rgba(56, 189, 248, 0.4); background: linear-gradient(135deg, rgba(14, 165, 233, 0.12) 0%, rgba(168, 85, 247, 0.12) 100%);">
+      <div class="section-header">
+        <span class="section-icon">👨‍💻</span>
+        <h2 class="section-title">7. Suporte Especializado • VL Informática</h2>
+      </div>
+      <div class="section-content">
+        <p>
+          Dúvidas, suporte técnico, novas otimizações ou instalação do VL Launcher em outras TVs:
+        </p>
+        <p>
+          <strong>Especialista Técnico:</strong> Victor Leitão<br>
+          <strong>Instagram Oficial:</strong> <a href="https://www.instagram.com/vlinformaticapb" target="_blank" style="color: var(--accent); font-weight: 700; text-decoration: none;">@vlinformaticapb</a><br>
+          <strong>Website / Showcase:</strong> <a href="index.html" style="color: var(--accent); font-weight: 700; text-decoration: none;">victormleitao.github.io/vl-launcher</a>
+        </p>
+      </div>
+    </section>
+
+    <div class="top-nav" style="justify-content: center; margin-top: 1rem;">
+      <a href="index.html" class="back-btn" tabindex="0">
+        <span>←</span> Voltar para a Página Principal
+      </a>
+    </div>
+
+    <footer>
+      <p>VL Launcher • Desenvolvido e Otimizado por Victor Leitão (VL Informática)</p>
+      <p style="margin-top: 0.3rem;">Todos os direitos reservados © 2026</p>
+    </footer>
+  </div>
+
+</body>
+</html>

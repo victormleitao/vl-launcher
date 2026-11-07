@@ -262,6 +262,76 @@
       letter-spacing: 0.05em;
     }
 
+    /* Botão Manual do Usuário */
+    .manual-btn-wrapper {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .manual-btn {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      background: linear-gradient(135deg, rgba(30, 41, 59, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      border-radius: 20px;
+      padding: 1.2rem 2rem;
+      color: #ffffff;
+      text-decoration: none;
+      width: 100%;
+      transition: all 0.25s ease;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+    }
+
+    .manual-btn:hover,
+    .manual-btn:focus,
+    .manual-btn:focus-visible {
+      transform: translateY(-4px) scale(1.03);
+      border-color: #38bdf8;
+      box-shadow: 0 0 30px rgba(56, 189, 248, 0.5), 0 16px 32px rgba(0, 0, 0, 0.6);
+      outline: 4px solid #38bdf8 !important;
+      outline-offset: 4px;
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.25) 0%, rgba(15, 23, 42, 0.95) 100%);
+    }
+
+    .manual-btn-icon {
+      font-size: 2.2rem;
+      line-height: 1;
+    }
+
+    .manual-btn-text {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      text-align: left;
+    }
+
+    .manual-btn-text strong {
+      font-size: 1.25rem;
+      color: #ffffff;
+      margin-bottom: 0.25rem;
+    }
+
+    .manual-btn-text span {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .manual-btn-arrow {
+      font-size: 1.6rem;
+      color: var(--accent);
+      transition: transform 0.2s ease;
+    }
+
+    .manual-btn:hover .manual-btn-arrow,
+    .manual-btn:focus .manual-btn-arrow {
+      transform: translateX(6px);
+    }
+
     /* Footer */
     footer {
       margin-top: 3rem;
@@ -353,6 +423,17 @@
         <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.instagram.com/vlinformaticapb&color=0-0-0" alt="QR Code Instagram VL Informática">
         <span class="qr-caption">Aponte a Câmera</span>
         <span style="color: #0284c7; font-size: 0.8rem; font-weight: 700; margin-top: 0.35rem;">👉 @vlinformaticapb</span>
+      </a>
+    </div>
+
+    <div class="manual-btn-wrapper">
+      <a href="manual.html" class="manual-btn" tabindex="0" title="Acessar o Manual do Usuário">
+        <span class="manual-btn-icon">📖</span>
+        <div class="manual-btn-text">
+          <strong>Manual do VL Launcher</strong>
+          <span>Clique aqui para entender todas as funções, atalhos e recursos</span>
+        </div>
+        <span class="manual-btn-arrow">→</span>
       </a>
     </div>
 
