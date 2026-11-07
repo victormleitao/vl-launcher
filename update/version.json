@@ -1,6 +1,6 @@
 {
-  "versionCode": 7,
-  "versionName": "1.1.6",
+  "versionCode": 1,
+  "versionName": "1.0",
   "apkUrl": "https://raw.githubusercontent.com/victormleitao/vl-launcher/main/update/VL_Launcher.apk",
-  "changelog": "• Suporte a papéis de parede personalizados e modo OLED preto puro\n• Slideshow automático de wallpapers com intervalo ajustável\n• Sistema de atualização rápida integrada OTA"
+  "changelog": "• Lançamento oficial do VL Launcher versão 1.0\n• Suporte a papéis de parede personalizados e modo OLED preto puro\n• Slideshow automático de wallpapers com intervalo ajustável\n• Sistema de atualização rápida integrada OTA"
 }
