@@ -2,34 +2,38 @@
 ### Guia Prático de Uso e Funcionalidades para Smart TV e TV Sticks
 *Desenvolvido e Otimizado por **VL Informática** (Victor Leitão)*
 
+> [!NOTE]
+> Este manual está disponível diretamente na sua TV através do botão **ℹ️ Sobre** ou online em:
+> **[victormleitao.github.io/vl-launcher/manual.html](https://victormleitao.github.io/vl-launcher/manual.html)**
+
 ---
 
 ## 🌟 1. Bem-vindo ao VL Launcher
 O **VL Launcher** foi criado para transformar sua Smart TV ou TV Stick em uma central de entretenimento rápida, moderna e livre de distrações, inspirada na experiência da **Apple TV**.
 
 ### Principais Benefícios:
-* ⚡ **Sem Lentidão:** Sistema ultraleve (~15MB de RAM) que responde de forma instantânea aos comandos do controle.
-* 🚫 **Zero Propagandas:** Nada de banners promocionais, anúncios invasivos ou vídeos que começam a tocar sozinhos.
-* 🎬 **Fundo Preto OLED:** Visual sofisticado que destaca as cores dos seus aplicativos favoritos.
-* 🔒 **Estabilidade Total:** Seus streamings favoritos sempre protegidos e organizados.
+* ⚡ **Sem Lentidão:** Consome apenas ~15MB de memória RAM (contra mais de 100MB das telas padrão de fábrica), acabando com engasgos.
+* 🚫 **Zero Propagandas:** Nada de banners promocionais invasivos ou vídeos indesejados tocando sozinhos em segundo plano.
+* 🎬 **Fundo Preto OLED Puro:** Visual sofisticado que destaca as cores dos seus aplicativos e reduz consumo de energia em TVs OLED.
+* 🔒 **Estabilidade Total:** Seus streamings favoritos sempre protegidos, organizados e com resposta instantânea no controle remoto.
 
 ---
 
 ## 🧭 2. Conhecendo a Tela Inicial
 
-A tela inicial é dividida em 3 partes essenciais:
+A interface é dividida em 3 áreas essenciais:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│  Boa noite / Olá!                           [ 🌐 ]  [ ⚙️ ]  [ ℹ️ ]      │
-│  20:45 • Sábado, 7 de Novembro                Rede   Config   Sobre    │
+│  Boa tarde / Olá!                           [ 🌐 ]  [ ⚙️ ]  [ ℹ️ ]      │
+│  13:00 • Sábado, 7 de Novembro                Rede   Config   Sobre    │
 ├────────────────────────────────────────────────────────────────────────┤
 │  [ ⭐ ]  [ ⊞ ]                     [ ⛔ ]               [ ⇅ ]          │
 │  Favoritos  Todos os Apps        Parar Mídia           Organizar        │
 ├────────────────────────────────────────────────────────────────────────┤
 │                                                                        │
 │   [ Netflix ]     [ YouTube ]     [ Prime Video ]   [ Globoplay ]      │
-│   [ Vizzion ]     [ IPTV ]        [ Play Store ]    [ TV Bro ]         │
+│   [ Zuxo Player ] [ IPTV ]        [ Play Store ]    [ TV Bro ]         │
 │                                                                        │
 └────────────────────────────────────────────────────────────────────────┘
 ```
@@ -38,97 +42,75 @@ A tela inicial é dividida em 3 partes essenciais:
 
 ## 🔘 3. Botões da Barra Superior (Canto Superior Direito)
 
-Ao apertar a **Seta para Cima** no controle remoto, você acessa os três botões redondos:
+Navegue com a **Seta para Cima [▲]** no controle remoto para acessar:
 
 1. **🌐 Rede & Conexão:**
    - Mostra o status da sua internet (Wi-Fi ou Cabo).
-   - Ao clicar, abre diretamente a tela de conexões da TV para verificar o sinal ou trocar de rede.
+   - Ao clicar, abre diretamente a tela de conexões de rede da TV.
 
 2. **⚙️ Configurações:**
-   - Abre instantaneamente o menu de configurações do sistema da TV (imagem, som, contas e Bluetooth).
+   - Abre instantaneamente o menu de configurações do sistema (imagem, som, Bluetooth, contas).
 
 3. **ℹ️ Sobre o VL Launcher (VL Informática):**
-   - Abre uma central interativa com informações do sistema, novidades e os canais de suporte da **VL Informática**.
-   - **QR Code Interativo:** Você pode navegar com as setas até o QR Code, apertar **OK** e abrir o Instagram oficial (**@vlinformaticapb**) diretamente na tela da sua TV!
-   - **Botão Manual:** Permite abrir este manual a qualquer momento sem sair da TV.
-   - Pressione **Voltar** no controle para retornar ou **HOME** para fechar tudo.
+   - Abre o popup informativo com as vantagens do setup, contatos de suporte e o botão interativo para o **Manual do Usuário**.
+   - As setas do controle navegam diretamente no conteúdo da página.
+   - Pressionar **Voltar [←]** retorna para a página anterior do popup ou fecha a janela.
+   - Pressionar **Home** fecha o popup imediatamente e retorna aos Favoritos.
 
 ---
 
-## 🗂️ 4. As Abas de Navegação (Barra Central)
+## 📱 4. Botão "Manual do VL Launcher" no Popup Sobre
 
-Logo abaixo do relógio, você encontra as opções de navegação:
+Abaixo do cartão com o QR Code do Instagram, há o botão dedicado:
 
-* **⭐ Favoritos:**
-  - A tela principal com os aplicativos que você mais usa no dia a dia.
-* **⊞ Todos os Aplicativos:**
-  - Mostra a lista completa de todos os aplicativos instalados na sua TV, incluindo apps sideload/celular e lojas.
-* **⛔ Parar Mídia em Segundo Plano (Botão Inteligente):**
-  - **Atenção:** Esse botão **só aparece quando tem algum som ou vídeo tocando escondido** (por exemplo, se você estava assistindo YouTube ou IPTV, apertou a tecla Home e o som continuou saindo).
-  - O ícone **⛔** indica bloqueio/parada imediata. Ao clicar nele, o sistema silencia e encerra o app em segundo plano na hora.
-* **⇅ Organizar:**
-  - Permite escolher entre **Ordem Alfabética (A-Z)** ou **Ordem Personalizada**;
-  - Alternar entre **4 colunas grandes** ou **5 colunas compactas**;
-  - Acessar o menu de **Apps Ocultos** para reexibir algum aplicativo escondido.
+```
+┌────────────────────────────────────────────────────────────────┐
+│  📖   Manual do VL Launcher                                 →  │
+│       Clique aqui para entender todas as funções e atalhos     │
+└────────────────────────────────────────────────────────────────┘
+```
 
----
-
-## 🎯 5. Menu de Opções do App (Segure o Botão OK)
-
-Quer personalizar seus aplicativos? É muito simples:
-1. Use as setas do controle para parar em cima do aplicativo desejado.
-2. **Segure o botão OK (Centro) por 1 segundo** (ou aperte a tecla **Menu** do controle).
-3. Um menu rápido se abrirá com as seguintes opções:
-
-| Opção | O que ela faz |
-|---|---|
-| **⭐ Adicionar / Remover Favorito** | Coloca ou tira o aplicativo da sua aba principal de Favoritos. |
-| **⇄ Mover de Posição** | Entra no modo de organização livre: use as setas do controle para mover o app para a esquerda, direita, cima ou baixo. Pressione **OK** para salvar na nova posição! |
-| **⚙️ Informações do Aplicativo** | Abre os detalhes do Android (limpar dados, permissões, versão). |
-| **🗑️ Desinstalar Aplicativo** | Remove o aplicativo da TV com rapidez e segurança. |
-| **👁️ Ocultar da Grade** | Esconde o aplicativo da tela. Você pode recuperá-lo quando quiser no botão **⇅ Organizar**. |
+Ao pressionar **OK**:
+* Abre a versão completa interativa do **manual.html** diretamente dentro do popup, sem abrir navegadores externos nem exibir diálogos de confirmação.
+* Ao terminar a leitura, basta apertar **Voltar [←]** no controle remoto para regressar à tela inicial do Sobre.
 
 ---
 
-## 🎮 6. Guia Rápido do Controle Remoto
+## ⚡ 5. Botões de Ação Rápida (Acima da Lista de Apps)
 
-* **Setas (Cima / Baixo / Esquerda / Direita):** Navegam pelos botões, abas e pelos cards dos aplicativos com animação destacada.
-* **Botão OK (Centro):** Abre o aplicativo ou botão selecionado.
-* **Segurar OK (1 segundo):** Abre o menu de opções do aplicativo.
-* **Botão Voltar (← / Back):** Fecha qualquer janela aberta e retorna para a aba de Favoritos. *Não se preocupe: apertar voltar nunca fechará o VL Launcher por engano.*
-* **Botão Home (🏠):** Retorna instantaneamente para a tela inicial do seu VL Launcher de qualquer lugar (inclusive de dentro do Sobre ou de qualquer aplicativo).
-
----
-
-## 🖼️ 7. Papéis de Parede Personalizados (Opcional)
-
-Se você quiser colocar uma foto de família, imagem de paisagem ou logo no fundo da sua TV:
-1. Copie suas imagens (`.jpg` ou `.png`) para a pasta **`Wallpapers`** na memória da TV.
-2. O **VL Launcher** detectará a foto automaticamente ao ligar, aplicando uma suave película escura por cima para garantir que todos os ícones continuem 100% legíveis.
+1. **⭐ Aba Favoritos:**
+   - Sua vitrine principal. Apenas os aplicativos que você mais usa no dia a dia.
+2. **⊞ Aba Todos os Apps:**
+   - Lista completa de todos os aplicativos instalados no aparelho em ordem alfabética.
+3. **⛔ Parar Mídias em Segundo Plano:**
+   - Encerra instantaneamente áudios ou vídeos que continuaram tocando sozinhos em segundo plano.
+4. **⇅ Organizar Favoritos:**
+   - Ativa o modo de ordenação dos seus apps favoritos com as setas do controle.
 
 ---
 
-## ❓ 8. Perguntas Frequentes (FAQ)
+## 🎮 6. Atalhos do Controle Remoto
 
-**1. Instalei um aplicativo novo pela Play Store ou Downloader, ele já aparece?**
-> *Sim! O VL Launcher monitora novas instalações em tempo real. O app aparecerá imediatamente na aba **⊞ Todos os Aplicativos** sem precisar reiniciar a TV.*
-
-**2. Como faço para deixar a Netflix em primeiro lugar nos Favoritos?**
-> *Segure o botão **OK** em cima da Netflix, selecione **"⇄ Mover de posição"**, use as setas para colocá-la na primeira posição e aperte **OK** para fixar.*
-
-**3. Ocultei um aplicativo por engano, como recupero?**
-> *Vá até a aba **⇅ Organizar**, clique em **"👁️ Gerenciar Apps Ocultos"** e selecione o aplicativo para reexibi-lo na grade.*
-
-**4. Como acessar o Instagram da VL Informática pela TV?**
-> *Clique no ícone **ℹ️ (Sobre)** no canto superior direito, navegue com as setas até o QR Code e aperte **OK** no controle remoto!*
+| Tecla / Ação | O que faz no VL Launcher |
+| :--- | :--- |
+| **Setas Direcionais (▲ ▼ ◄ ►)** | Move o foco suavemente entre cards e botões |
+| **OK / Centro** | Abre o aplicativo selecionado ou ativa a opção |
+| **Segurar OK (Clique Longo)** | Abre o menu rápido: Adicionar/Remover Favorito, Desinstalar ou Informações |
+| **Voltar [←]** | Volta na navegação interna ou cancela a seleção atual |
+| **HOME** | Retorna imediatamente para a tela de Favoritos de qualquer lugar |
 
 ---
 
-## 📞 9. Suporte e Atendimento Técnico
-Precisa de ajuda, novas instalações ou suporte especializado?
+## 🖼️ 7. Papéis de Parede Personalizados
+Você pode usar suas fotos na TV:
+* Crie a pasta **`Wallpapers`** na memória interna da TV ou TV Stick.
+* Coloque imagens em formato `.jpg` ou `.png`.
+* O VL Launcher carrega a imagem de fundo automaticamente ao ligar, aplicando uma suave película escura para garantir total legibilidade dos ícones.
 
-* **Especialista Técnico:** Victor Leitão
-* **Empresa:** VL Informática / VL Apps
+---
+
+## 👨‍💻 8. Suporte Especializado • VL Informática
+* **Especialista:** Victor Leitão
 * **Instagram Oficial:** [@vlinformaticapb](https://www.instagram.com/vlinformaticapb)
-* **Página Oficial:** [victormleitao.github.io/vl-launcher](https://victormleitao.github.io/vl-launcher/)
+* **Showcase Online:** [victormleitao.github.io/vl-launcher](https://victormleitao.github.io/vl-launcher/)
 * **Manual Online:** [victormleitao.github.io/vl-launcher/manual.html](https://victormleitao.github.io/vl-launcher/manual.html)
