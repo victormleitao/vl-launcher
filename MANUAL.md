@@ -105,6 +105,7 @@ Ao pressionar **OK**:
 O VL Launcher já vem de fábrica com um elegante papel de parede escuro minimalista. Na primeira instalação, ele solicita a permissão de armazenamento e cria automaticamente a pasta **`wallpaper`** na memória interna da TV ou TV Stick, inserindo a imagem padrão nela:
 * **Fundo Preto Puro OLED:** Se você preferir uma tela 100% preta sem nenhuma foto, basta apagar o arquivo de dentro da pasta `wallpaper`.
 * **Sua Própria Imagem:** Coloque qualquer foto (`.jpg`, `.png`, `.webp`) dentro da pasta `wallpaper` que o launcher substituirá o fundo na mesma hora.
+* **Slideshow Inteligente (2 ou mais fotos):** Colocando 2 ou mais imagens na pasta `wallpaper`, o launcher ativa o rodízio automático com transição suave tipo *fade*! Você pode ajustar o tempo no botão **⇅ Organizar** (30 min, 1h, 6h, 12h ou 24h).
 * **Restaurar Original:** Basta colocar a foto original de volta na pasta `wallpaper` que ela reassume o plano de fundo.
 
 ---
