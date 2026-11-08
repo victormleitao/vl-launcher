@@ -243,23 +243,47 @@
       gap: 0.9rem;
     }
 
+    .alert-box.alert-info {
+      background: rgba(56, 189, 248, 0.08);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+    }
+
     .alert-icon {
       font-size: 1.6rem;
       flex-shrink: 0;
     }
 
-    .alert-text strong {
+    .alert-title {
       color: #f87171;
       font-size: 1.05rem;
+      font-weight: 700;
       display: block;
       margin-bottom: 0.3rem;
+    }
+
+    .alert-box.alert-info .alert-title {
+      color: var(--accent);
     }
 
     .alert-text p {
       color: #fca5a5;
       font-size: 0.95rem;
-      line-height: 1.45;
+      line-height: 1.5;
       margin: 0;
+    }
+
+    .alert-box.alert-info .alert-text p {
+      color: #cbd5e1;
+    }
+
+    .alert-text p + p {
+      margin-top: 0.7rem;
+    }
+
+    .alert-text strong {
+      color: inherit;
+      font-weight: 700;
+      display: inline;
     }
 
     /* Footer */
@@ -332,7 +356,7 @@
         <div class="alert-box">
           <span class="alert-icon">⚠️</span>
           <div class="alert-text">
-            <strong>Aviso importante sobre formatação de fábrica</strong>
+            <span class="alert-title">Aviso importante sobre formatação de fábrica</span>
             <p>
               Caso você formate ou restaure o seu dispositivo (seja Smart TV ou TV Stick) para os padrões originais de fábrica, ele retornará ao sistema original, perdendo o VL Launcher e todas as personalizações. Para reativar a interface, será necessário realizar uma nova instalação mediante novo pagamento do serviço contratado.
             </p>
@@ -543,18 +567,18 @@
           Muitos usuários têm dúvidas sobre como funciona a função de espelhar ou transmitir vídeos do celular (YouTube, Netflix, etc.) para a Smart TV:
         </p>
 
-        <div class="alert-box" style="border-left-color: var(--accent); background: rgba(56, 189, 248, 0.08);">
+        <div class="alert-box alert-info">
           <span class="alert-icon">💡</span>
           <div class="alert-text">
-            <strong style="color: var(--accent);">Por que a transmissão do celular fica desligada por padrão?</strong>
-            <p style="color: #cbd5e1; margin-top: 0.5rem;">
+            <span class="alert-title">Por que a transmissão do celular fica desligada por padrão?</span>
+            <p>
               O serviço de transmissão nativo (Chromecast Built-in / Google Cast) mantém uma varredura constante em segundo plano na rede Wi-Fi procurando aparelhos. Isso consome processador e muita memória RAM continuamente, sendo uma das principais causas de lentidão e travamentos nas Smart TVs.
             </p>
-            <p style="color: #cbd5e1; margin-top: 0.8rem;">
-              Esse recurso é desativado por padrão na otimização da <strong>VL Informática</strong> para garantir que a sua Smart TV mantenha <strong>desempenho máximo, resposta imediata e memória RAM sempre livre</strong>.
+            <p>
+              Esse recurso é desativado por padrão na otimização da VL Informática para garantir que a sua Smart TV mantenha desempenho máximo, resposta imediata e memória RAM sempre livre
             </p>
-            <p style="color: #cbd5e1; margin-top: 0.8rem;">
-              Todos os aplicativos essenciais (como YouTube, Netflix e canais ao vivo) funcionam de forma 100% nativa e rápida diretamente pela tela do <strong>VL Launcher</strong>.
+            <p>
+              Todos os aplicativos essenciais (como YouTube, Netflix e canais ao vivo) funcionam de forma 100% nativa e rápida diretamente pela tela do VL Launcher.
             </p>
           </div>
         </div>
