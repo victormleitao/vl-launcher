@@ -1,6 +1,6 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1",
+  "versionCode": 3,
+  "versionName": "1.2",
   "apkUrl": "https://raw.githubusercontent.com/victormleitao/vl-launcher/main/update/VL_Launcher.apk",
-  "changelog": "• Suporte completo aos botões de atalho do controle remoto (Netflix, Prime Video, YouTube, Configurações)\n• Interceptação nativa do botão Home no Google TV e Android TV\n• Melhorias na estabilidade e tempo de resposta"
+  "changelog": "• Tecla de configuração do controle remoto agora abre diretamente as Configurações do Sistema\n• Compatibilidade universal aprimorada para Google TV e Android TV em um único APK\n• Suporte completo aos botões de atalho (Netflix, Prime Video, YouTube)"
 }
