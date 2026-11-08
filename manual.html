@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manual do usuário • VL Launcher | VL Informática</title>
+  <link rel="icon" type="image/png" href="logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -86,11 +87,18 @@
     }
 
     .brand-logo {
-      width: 180px;
-      max-width: 80%;
+      width: 240px;
+      max-width: 85%;
       height: auto;
-      margin-bottom: 1rem;
-      filter: drop-shadow(0 4px 12px rgba(56, 189, 248, 0.25));
+      display: block;
+      margin: 0 auto 1.5rem auto;
+      filter: drop-shadow(0 10px 30px rgba(56, 189, 248, 0.3));
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .brand-logo:hover {
+      transform: scale(1.04);
+      filter: drop-shadow(0 14px 36px rgba(56, 189, 248, 0.45));
     }
 
     h1 {
@@ -264,6 +272,7 @@
 
     /* Responsividade */
     @media (max-width: 640px) {
+      .brand-logo { width: 190px; }
       h1 { font-size: 1.9rem; }
       .manual-section { padding: 1.4rem; }
     }
@@ -516,11 +525,44 @@
       </div>
     </section>
 
-    <!-- 7. Suporte e Contato -->
+    <!-- 7. Transmissão e Espelhamento -->
+    <section class="manual-section">
+      <div class="section-header">
+        <span class="section-icon">📲</span>
+        <h2 class="section-title">7. Transmissão e espelhamento de tela (Chromecast / Celular)</h2>
+      </div>
+      <div class="section-content">
+        <p>
+          Muitos usuários têm dúvidas sobre como funciona a função de espelhar ou transmitir vídeos do celular (YouTube, Netflix, etc.) para a Smart TV:
+        </p>
+
+        <div class="alert-box" style="border-left-color: var(--accent); background: rgba(56, 189, 248, 0.08);">
+          <span class="alert-icon">💡</span>
+          <div class="alert-text">
+            <strong style="color: var(--accent);">Por que a transmissão do celular fica desligada por padrão?</strong>
+            <p style="color: #cbd5e1; margin-top: 0.4rem;">
+              O serviço de transmissão nativo (Chromecast Built-in / Google Cast) mantém uma varredura constante em segundo plano na rede Wi-Fi procurando aparelhos. Isso consome processador e muita memória RAM continuamente, sendo uma das principais causas de lentidão e travamentos nas Smart TVs.
+              <br><br>
+              Para garantir que a sua Smart TV fique com <strong>desempenho máximo, resposta imediata e memória RAM sempre livre</strong>, esse recurso é desativado por padrão na otimização da <strong>VL Informática</strong>.
+            </p>
+          </div>
+        </div>
+
+        <p style="margin-top: 1.2rem;">
+          <strong>Todos os seus aplicativos continuam disponíveis diretamente na TV:</strong><br>
+          Você não precisa do celular para assistir — aplicativos como <strong>YouTube, Netflix, Prime Video, Globoplay e canais ao vivo</strong> funcionam de forma 100% nativa, muito mais rápida e sem consumir a bateria do seu telefone direto pela tela do <strong>VL Launcher</strong>.
+        </p>
+        <p style="margin-top: 0.8rem; color: var(--text-muted); font-size: 0.95rem;">
+          <em>Nota: Caso você faça questão absoluta de transmitir vídeos ou espelhar a tela do celular para a TV, basta solicitar ao suporte técnico da <strong>VL Informática</strong> que podemos reativar o serviço para você.</em>
+        </p>
+      </div>
+    </section>
+
+    <!-- 8. Suporte e Contato -->
     <section class="manual-section" style="border-color: rgba(56, 189, 248, 0.4); background: linear-gradient(135deg, rgba(14, 165, 233, 0.12) 0%, rgba(168, 85, 247, 0.12) 100%);">
       <div class="section-header">
         <span class="section-icon">👨‍💻</span>
-        <h2 class="section-title">7. Suporte especializado • VL Informática</h2>
+        <h2 class="section-title">8. Suporte especializado • VL Informática</h2>
       </div>
       <div class="section-content">
         <p>
