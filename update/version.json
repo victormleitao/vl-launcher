@@ -1,6 +1,6 @@
 {
-  "versionCode": 5,
-  "versionName": "1.2.2",
+  "versionCode": 4,
+  "versionName": "1.2.1",
   "apkUrl": "https://raw.githubusercontent.com/victormleitao/vl-launcher/main/update/VL_Launcher.apk",
-  "changelog": "• Teste de atualização: orientações na tela para autorizar instalação de apps desconhecidos\n• Tecla de configuração do controle remoto abre diretamente as Configurações do Sistema\n• Compatibilidade universal aprimorada para Google TV e Android TV em um único APK"
+  "changelog": "• Orientações na tela para autorizar instalação de atualizações (apps desconhecidos)\n• Tecla de configuração do controle remoto abre diretamente as Configurações do Sistema\n• Compatibilidade universal aprimorada para Google TV e Android TV em um único APK"
 }
