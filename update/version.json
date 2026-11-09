@@ -1,6 +1,6 @@
 {
-  "versionCode": 4,
-  "versionName": "1.2.1",
+  "versionCode": 6,
+  "versionName": "1.2.3",
   "apkUrl": "https://raw.githubusercontent.com/victormleitao/vl-launcher/main/update/VL_Launcher.apk",
-  "changelog": "• Orientações na tela para autorizar instalação de atualizações (apps desconhecidos)\n• Tecla de configuração do controle remoto abre diretamente as Configurações do Sistema\n• Compatibilidade universal aprimorada para Google TV e Android TV em um único APK"
+  "changelog": "• Correção da tela de Configurações no Fire OS (abertura estável da grade nativa)\n• Interceptação aprimorada do botão Home no Fire OS com sincronismo anti-foco\n• Atualização do serviço de acessibilidade para filtragem precisa de janelas"
 }
